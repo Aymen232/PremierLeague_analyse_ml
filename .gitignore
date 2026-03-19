@@ -1,0 +1,91 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Packaging / build
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Data (VERY IMPORTANT)
+# =========================
+data/raw/*
+data/processed/*
+data/features/*
+
+# Keep folders structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/features/.gitkeep
+
+# =========================
+# Machine Learning
+# =========================
+models/
+*.pkl
+*.joblib
+*.h5
+
+# =========================
+# Power BI
+# =========================
+*.pbix.tmp
+
+# =========================
+# Docker
+# =========================
+*.env
+
+# =========================
+# Airflow
+# =========================
+airflow/logs/
+airflow/*.db
+
+# =========================
+# Tests / coverage
+# =========================
+.coverage
+.pytest_cache/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
